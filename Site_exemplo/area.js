@@ -6,3 +6,9 @@ let var1= document.querySelector("p")
         }else{
   var1.setAttribute('style','Background-color: black; color: white; border-radius:5px; padding:5px');
         }
+
+      let lista =  document.getElementById("lista")
+        if(lista === Kajo){
+            lista = document.getElementById("lista")
+            setAttribute('style','Color: blue; background: blue')
+        }
