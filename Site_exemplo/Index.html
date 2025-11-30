@@ -6,30 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site em repositório</title>
 </head>
-
-<style>
-input{
-    background-color:white;
-    border-color: black;
-}
-
-</style>
+<link rel="stylesheet" href="style.css">
 
 <body>
-    <h1>Olá Pessoal</h1>
-    <hr>
+    <main>
+        <h1>Olá Pessoal</h1>
+        <hr>
+        <input id="lista" list="Languages" placeholder="select">
+        <input type="checkbox" class="check">
+        <datalist id="Languages">
+            <option value="Java"></option>
+            <option value="JavaScript"></option>
+            <option value="Phython"></option>
+            <option value="PHP"></option>
+            <option value="C"></option>
+        </datalist>
 
-    <input id="lista" list="Languages" placeholder="select">
-    <datalist id="Languages">
-        <option value="Java"></option>
-        <option value="JavaScript"></option>
-        <option value="Phython"></option>
-        <option value="PHP"></option>
-        <option value="C"></option>
-    </datalist>
-    <p id="paragrafo"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus earum reprehenderit
-        cupiditate, voluptates ut totam vero maiores, recusandae est repellendus veniam laudantium. Quia tempora
-        similique blanditiis voluptates omnis itaque soluta.</p>
+        <p id="paragrafo"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus earum reprehenderit
+            cupiditate, voluptates ut totam vero maiores, recusandae est repellendus veniam laudantium. Quia tempora
+            similique blanditiis voluptates omnis itaque soluta.</p>
+    </main>
 </body>
 <script src="area.js"></script>
 

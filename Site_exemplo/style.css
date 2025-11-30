@@ -1,0 +1,21 @@
+@charset "utf-8";
+:root{
+
+--CO1:#8a2be2;
+--CO2:#ffffff65;
+--CO3:#000000;
+}
+body{
+    background-image: linear-gradient(to right,var(--CO1) 60%,var(--CO1)60%,var(--CO3));
+}
+main{
+    background-color: var(--CO2);
+    padding: 30px;
+    margin: 10px;
+    border-radius: 5px;
+    border-color: var(--CO2);
+}
+input{
+    background-color:var(--CO2);
+    border-color: black;
+}
