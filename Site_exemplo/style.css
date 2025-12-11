@@ -2,20 +2,55 @@
 :root{
 
 --CO1:#8a2be2;
---CO2:#ffffff65;
+--CO2:#ffffff3b;
 --CO3:#000000;
 }
 body{
     background-image: linear-gradient(to right,var(--CO1) 60%,var(--CO1)60%,var(--CO3));
 }
-main{
+form{
+      display: flex;
+      flex-direction: column;
     background-color: var(--CO2);
+    width: 300px;
     padding: 30px;
-    margin: 10px;
+    margin: auto;
     border-radius: 5px;
     border-color: var(--CO2);
+    
+}
+.P{
+    display: flex;
+    align-items: center;
+}
+.P label{
+    width: 90px;
+    align-items: center;
 }
 input{
     background-color:var(--CO2);
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  
+}
+a{
+    text-decoration: none;
+    color: var(--CO3);
+}
+button{
+    background-color:var(--CO1);
+    color:var(--CO3);
+    font-weight: bold;
     border-color: black;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+button:hover{
+    background-color:var(--CO2);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
 }
