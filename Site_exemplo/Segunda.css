@@ -21,6 +21,13 @@ body{
     max-width: 900px;
     margin: auto;
 }
+#image {
+    display: block;
+    margin: 0 auto; 
+    max-width: 400px; 
+    width: 100%;      
+}
+
 
 .header{
     text-align: center;
